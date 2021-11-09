@@ -1,0 +1,17 @@
+// 1. Sum All Numbers in a Range
+let totalNum = 0;
+  if (arr[0] > arr[1]) {
+    smallNum = arr[1];
+    largeNum = arr[0];
+  }
+  else {
+    smallNum = arr[0];
+    largeNum = arr[1];
+  }
+    for (let i = smallNum; i <= largeNum; i++) {
+      totalNum += i;
+      console.log(totalNum)
+    }
+
+  return totalNum;
+}
